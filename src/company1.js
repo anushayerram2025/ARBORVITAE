@@ -4,7 +4,7 @@ import image from "./photos/logo.png";
 import AI from "./photos/AI.jpeg";
 import bicycle from "./photos/bicycle.jpeg";
 import mission from "./photos/mission.jpeg";
-import { Link, useLocation } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 function Logo() {
   useEffect(() => {
