@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const nodemailer = require('nodemailer');
-
+require('dotenv').config()
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -20,7 +20,7 @@ app.post('/contact', async function (req, res) {
   const { fname, fmail, text } = req.body;
   console.log("HELOOO");
   res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
-
+  const pass1=process.env.pass
 
   try {
     const transporter = nodemailer.createTransport({
@@ -29,7 +29,7 @@ app.post('/contact', async function (req, res) {
       
       auth: {
         user: "yerramanusha8@gmail.com",
-        pass: "qzitmptgezttqwfu"
+        pass: pass1
       }
     });
 
