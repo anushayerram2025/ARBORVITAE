@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, '..', 'build')));
 app.use(bodyParser.json());
 
 // Parse URL-encoded bodies
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.post('/contact', async function (req, res) {
   const { fname, fmail, text } = req.body;
