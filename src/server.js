@@ -28,14 +28,14 @@ app.post('/contact', async function (req, res) {
       port: 587,
       
       auth: {
-        user: "yerramanusha8@gmail.com",
+        user: "dvkr4846@gmail.com",
         pass: pass1
       }
     });
 
     // Send email
     await transporter.sendMail({
-      from: "yerramanusha8@gmail.com",
+      from: "dvkr4846@gmail.com",
       to: 'arborvitae.ai@gmail.com',
       subject: 'ARBORVITAE',
       text: `${fname}\n${fmail}\n${text}`
