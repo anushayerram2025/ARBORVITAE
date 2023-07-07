@@ -9,8 +9,7 @@ Arborvitae is a company specializing in providing AI solutions for businesses. O
 
 Arborvitae's website utilizes a combination of React, CSS, and JavaScript to create intuitive user interfaces that offer seamless user experiences. We have developed a robust system that incorporates AI algorithms to provide customized solutions tailored to the specific needs of our clients.
 
-Additionally, we have implemented Node Mailer, a powerful tool, to streamline communication. Our system automatically receives and manages contact form submissions, ensuring efficient handling and response to inquiries.
-
+Additionally, we have implemented Node Mailer, a powerful tool, to streamline communication.
 <h1>Technologies Used</h1>
 
 
@@ -19,6 +18,6 @@ CSS
 JavaScript
 Node Mailer
 Contact Us
-For more information about our services and to experience the power of AI in action, please visit our website at [website-url]. If you have any inquiries or would like to get in touch, feel free to reach out to us at [email-address]. We look forward to hearing from you!
+For more information about our services and to experience the power of AI in action, please visit our website at [https://arborvitae-app.onrender.com/]. If you have any inquiries or would like to get in touch, feel free to reach out to us at [yerramanusha8@gmail.com]. We look forward to hearing from you!
 
 Feel free to customize this README template by adding more sections or information specific to your project or company.
